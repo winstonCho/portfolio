@@ -1513,7 +1513,7 @@ footer .f_right .moon img{
   border-radius: 10px;
   position: absolute;
   bottom: 52px;
-  left: 0px;
+  left: -300px;
   animation: shadow 2s infinite;
   z-index: 99;
 }
