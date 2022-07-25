@@ -30,7 +30,7 @@ function toggleGlitch(el, active = true) {
     });
     children[children.length - 1].classList.add('displayed');  
   } else {
-    const childToDisplay = children.length > 2 ? sliderIndex - 1 : 0;
+    const childToDisplay = children.length > 3 ? sliderIndex - 1 : 0;
   children[childToDisplay].classList.add('displayed');
   children[children.length - 1].classList.remove('displayed');
   }
@@ -368,16 +368,16 @@ $(function () {
   var i = 1;
   var interval = setInterval(function () {
       $('.cats .iru a img').attr({
-          src: 'img/iru/iru' + i + '.png'
+          src: 'iru/iru' + i + '.png'
       });
       $('.cats .lira a img').attr({
-          src: 'img/lira/lira' + i + '.png'
+          src: 'lira/lira' + i + '.png'
       });
       $('.cats .ume a img').attr({
-          src: 'img/ume/ume' + i + '.png'
+          src: 'ume/ume' + i + '.png'
       });
       $('.cats .liu a img').attr({
-          src: 'img/liu/liu' + i + '.png'
+          src: 'liu/liu' + i + '.png'
       });
       i++;
       if (i === 11) i = 1;
